@@ -1,7 +1,9 @@
 # No-AD-WIFI
 ## Hardware Required
 * ESP32
-
+## Software Requirement
+* Arduino IDE
+* WIFI Network
 ## How it works
 ESP32 takes your WIFI then slows it down to ~2ms making it slow enough to not let AD services load or if they even load then they get a timeout.
 
@@ -13,4 +15,10 @@ Install ESP32 Board Package
 * Step 3:
 Connect ESP32 to your computer through a Micro USB Cable that supports Data Transfer.
 * Step 4:
+Sync the credentials (YOUR WIFI SID etc.)
+* Step 5:
 Upload the Sketch to the board.
+
+Software licensed under MIT. Feel free to fork, modify or rebuild.
+
+**Software developed and maintained by: [scriptsnsenses-sys](https://github.com/scriptsnsenses-sys)**

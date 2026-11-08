@@ -1,2 +1,6 @@
 # No-AD-WIFI
-This repo contains code for a tool that can provide a custom wifi by connecting to you do not get ADs in Mobile games.
+## Hardware Required
+* ESP32
+
+## How it works
+ESP32 takes your WIFI then slows it down to ~2ms making it slow enough to not let AD services load or if they even load then they get a timeout.

@@ -20,12 +20,12 @@
 #include <lwip/ip4_addr.h>
 
 // =============== Your home WiFi (upstream / internet) ===============
-const char* STA_SSID = "ACT-ai_110826281838";
-const char* STA_PASS = "62446594";
+const char* STA_SSID = "YOUR-WIFI-SID";
+const char* STA_PASS = "YOUR-WIFI-PASSWORD";
 
 // =============== ESP32's own "slow" AP ==============================
-const char* AP_SSID  = "SlowWiFi";
-const char* AP_PASS  = "ESP32Jindabad";
+const char* AP_SSID  = "NoAds";
+const char* AP_PASS  = "No ADs in Mobile Games";
 
 // =============== Radio throttle knobs ===============================
 const bool   FORCE_11B_ON_AP = true;   // 802.11b only — biggest slowdown
